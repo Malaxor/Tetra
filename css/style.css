@@ -44,9 +44,6 @@ HOME
 #home-cover {
 
     background-image: url("../img/bg-home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100%;
 }
 
@@ -73,7 +70,48 @@ HOME
 }
 
 /*========================================================================
-Button (generic)
+ANIMATION 
+==========================================================================*/
+#home-cover,
+#home-heading,
+#home-btn {
+
+    animation-duration: .5s;
+}
+
+
+#home-cover {
+
+    animation-delay: .1s;
+}
+
+#home-heading {
+
+    animation-delay: .5s;
+}
+
+#home-btn {
+
+    animation-delay: 1s;
+}
+
+
+
+/*========================================================================
+PARALLAX (generic)
+==========================================================================*/
+
+.bg-parallax {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*========================================================================
+BUTTONS (generic)
 ==========================================================================*/
 
 .btn-general {
