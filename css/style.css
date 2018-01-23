@@ -18,4 +18,26 @@ body {
 
 	font-family: "Roboto Condensed", "sans-serif";
 	color: #34c6d3;
+	margin: auto;
 }
+
+.col-1 {
+
+	background-color: red;
+}
+
+.col-2 {
+
+	background-color: green;
+}
+
+.col-3 {
+
+	background-color: blue;
+}
+
+.col-4 {
+
+	background-color: yellow;
+}
+
