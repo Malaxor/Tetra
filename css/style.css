@@ -163,7 +163,6 @@ ABOUT SECTION
     margin-bottom: 30px;
 }
 
-
 /*========================================================================
 WORK SECTION
 ==========================================================================*/
@@ -187,6 +186,7 @@ WORK SECTION
 .img-wrapper img:hover {
 
     transform: scale(1.5);
+    cursor: zoom-in;
 }
 
 
