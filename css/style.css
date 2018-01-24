@@ -87,7 +87,7 @@ SERVICES SECTION
     cursor: pointer;
 }
 
-.service-item:hover .service-item-icon {
+.service-item-icon:hover {
 
     color: #fff;
     background-color: #34c6d3;
