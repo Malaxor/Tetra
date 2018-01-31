@@ -189,8 +189,65 @@ WORK SECTION
     cursor: zoom-in;
 }
 
+/*========================================================================
+TEAM SECTION
+==========================================================================*/
+.team-member {
 
+    margin: 0 15px;
+}
 
+.team-member-info {
+
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+h4.team-member-designation {
+
+    color: #36c6d3;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+/*========================================================================
+SOCIAL ICONS (generic)
+==========================================================================*/
+
+.social-list {
+
+    padding-left: 0;
+    margin-top: 25px;
+}
+
+.social-list li {
+
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+
+.icon-gray {
+
+    color: #41464b;
+}
+
+.social-icon:hover {
+
+    color: #34c6d3;
+}
 /*========================================================================
 ANIMATION 
 ==========================================================================*/
