@@ -251,6 +251,7 @@ PARALLAX (generic)
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* parallax */
     background-attachment: fixed;
 }
 
