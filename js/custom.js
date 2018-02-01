@@ -34,5 +34,18 @@ $("#team-members").owlCarousel({
 	loop: true
 })
 
+//=====================================================
+// TESTIMONIALS SECTION
+//=====================================================
+
+$("#customers-testimonials").owlCarousel({
+	items: 1,
+	autoplay: true,
+	autoplayHoverPause: true,
+	smartSpeed: 700,
+	loop: true
+})
+
+
 
 
