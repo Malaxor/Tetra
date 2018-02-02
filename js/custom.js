@@ -14,7 +14,7 @@ new WOW().init();
 
 
 $("#work").magnificPopup({
-
+	
 	delegate: "a", // child items selector. by clicking it, popup will open
 	type: "image",
 	gallery: {
