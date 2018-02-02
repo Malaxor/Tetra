@@ -56,6 +56,17 @@ $(".counter").counterUp({
 	time: 2000
 });
 
+//=====================================================
+// STATS SECTION
+//=====================================================
+
+$("#clients-list").owlCarousel({
+	items: 6,
+	autoplay: true,
+	autoplayHoverPause: true,
+	smartSpeed: 700,
+	loop: true
+})
 
 
 
