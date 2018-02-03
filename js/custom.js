@@ -68,5 +68,21 @@ $("#clients-list").owlCarousel({
 	loop: true
 })
 
+//=====================================================
+// NAVIGATION
+//=====================================================
+// Show/Hide transparent black navi
+$(window).scroll(function() {
+
+	if($(this).scrollTop() < 50) {
+
+		$("nav").removeClass("custom-nav")
+	}
+	else {
+
+		$("nav").addClass("custom-nav")
+	}
+});	
+
 
 
