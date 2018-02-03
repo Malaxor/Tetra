@@ -412,13 +412,13 @@ CLIENTS SECTION
 }
 
 /*========================================================================
-CONTACT SECTION
+CONTACT (FOOTER)
 ==========================================================================*/
 footer {
 
     background-color: #41464b;
     padding-top: 30px; 
-    border-top: 5px solid rbga(0,0,0, 0.1);
+    border-top: 5px solid rgba(0,0,0, .1);
 }
 
 #contact-left h3 {
@@ -462,9 +462,58 @@ form .form-control {
     padding: 8px 16px;
     margin-bottom: 20px;
     color: #fff;
-
 }
 
+/*========================================================================
+FOOTER-BOTTOM
+==========================================================================*/
+
+#footer-bottom {
+
+    background-color: rgba(0,0,0, .1);
+    padding: 30px 0;
+    margin-top: 60px;       
+}
+
+#footer-copyrights p {
+
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    
+    display: inline-block;
+}
+
+#footer-menu a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+#footer-menu a:hover {
+
+    color: #34c6d3;
+}
 /*========================================================================
 SOCIAL ICONS (generic)
 ==========================================================================*/
