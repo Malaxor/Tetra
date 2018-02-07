@@ -77,6 +77,7 @@ $(window).scroll(function() {
 	if($(this).scrollTop() < 50) {
 
 		$("nav").removeClass("custom-nav");
+		// hide btn-back-to-top
 		$("#back-to-top").fadeOut();
 	}
 	else {
@@ -99,5 +100,11 @@ $("a.smooth-scroll").click(function(event) {
 	},1250, "easeInOutExpo");
 });
 
+
+// close mobile menu on section click
+$(".navbar-collapse ul li a").on("click touch", function() {
+
+	$(".navbar-toggle").click();
+});
 
 
