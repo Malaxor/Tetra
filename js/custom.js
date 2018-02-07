@@ -31,8 +31,22 @@ $("#team-members").owlCarousel({
 	autoplay: true,
 	autoplayHoverPause: true,
 	smartSpeed: 700,
-	loop: true
-})
+	loop: true,
+	responsive : {
+	    // breakpoint from 0 up
+	    0 : {
+	    	items: 1
+	    },
+	    // breakpoint from 480 up
+	    480 : {
+	    	items: 2
+	    },
+	    // breakpoint from 768 up
+	    768 : {
+	    	items: 3
+	    },
+	} 
+});
 
 //=====================================================
 // TESTIMONIALS SECTION
@@ -89,6 +103,7 @@ $("#clients-list").owlCarousel({
 //=====================================================
 // NAVIGATION
 //=====================================================
+
 // Show/Hide transparent black navi
 $(window).scroll(function() {
 
