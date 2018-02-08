@@ -47,6 +47,7 @@ NAVIGATION
 
     padding: 20px 0;
     transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .custom-nav {
@@ -242,12 +243,17 @@ WORK SECTION
 }
 
 .img-wrapper img {
-
+    
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5 ease;
+    
 }
 
 .img-wrapper img:hover {
-
+    
+    -webkit-transform: scale(1.5);
     transform: scale(1.5);
     cursor: zoom-in;
 }
@@ -514,6 +520,13 @@ address strong,
 #phone-fax-email strong {
 
     letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#contact-us {
+
+    color: #fff;
+    font-weight: 400;
 }
 
 form .form-control {
@@ -615,23 +628,27 @@ ANIMATION
 #home-cover,
 #home-heading,
 #home-btn {
-
+    
+    -webkit-animation-duration: .5s;
     animation-duration: .5s;
 }
 
 
 #home-cover {
 
+    -webkit-animation-delay: .1s;
     animation-delay: .1s;
 }
 
 #home-heading {
 
+    -webkit-animation-delay: .5s;
     animation-delay: .5s;
 }
 
 #home-btn {
 
+    -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
 
