@@ -108,13 +108,13 @@ $("#clients-list").owlCarousel({
 $(window).scroll(function() {
 
 	if($(this).scrollTop() < 50) {
-
+		$(".navbar-brand h3").removeClass("brand-name-white");	
 		$("nav").removeClass("custom-nav");
 		// hide btn-back-to-top
 		$("#back-to-top").fadeOut();
 	}
 	else {
-
+		$(".navbar-brand h3").addClass("brand-name-white");	
 		$("nav").addClass("custom-nav");
 		$("#back-to-top").fadeIn();
 	}

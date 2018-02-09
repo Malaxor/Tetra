@@ -19,29 +19,6 @@ Black 		  : #000
 GENERAL RULES
 ==========================================================================*/
 
-/* Brand Name */
-
-#color-one {
-
-    color: #D81159;
-}
-#color-two {
-
-    color: #6DC954;
-}
-#color-three {
-
-    color: #FBB13C;
-}
-#color-four {
-
-    color: #1BB9E5;
-}
-#color-five {
-
-    color: #ABFF4F;
-}
-
 html,
 body {
 
@@ -72,16 +49,27 @@ NAVIGATION
 
 .navbar-brand {
 
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
-.navbar-brand h3 {
+.brand-name {
 
-    color: white;
+    color: #34c6d3;
+    letter-spacing: 4px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 33px;
     margin: 0;
 }
+
+.brand-name-white {
+
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 0;
+}
+
 
 .navbar {
 
