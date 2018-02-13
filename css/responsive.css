@@ -3,25 +3,12 @@ Bootstrap 3 Media Queries
 ==========================================================================*
 
 /* Large Devices (Desktops & Laptops) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1289px) {
 
-	/* Back-to-Top Button (FOOTER) */
-
-	#back-to-top {
-
-		bottom: 3px;
-		right: 3px;
-	}
-}
-
-/* Medium Devices (Landscape Tablets & Medium Desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-	
 	/* mobile menu */
-
 	.navbar {
 
-		background: rgba(0,0,0, .7);
+		background: rgba(0,0,0, .8);
 		padding: 0;
 	}
 
@@ -36,11 +23,38 @@ Bootstrap 3 Media Queries
 	}
 
 	/* Back-to-Top Button (FOOTER) */
-
 	#back-to-top {
 
-		bottom: 3px;
-		right: 3px;
+		bottom: 15px;
+		right: 15px;
+	}
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	/* mobile menu */
+	.navbar {
+
+		background: rgba(0,0,0, .8);
+		padding: 0;
+	}
+
+	.navbar-nav {
+
+		float: left;
+	}
+
+	.vesco-nav-wrapper {
+
+		padding: 0;
+	}
+
+	/* Back-to-Top Button (FOOTER) */
+	#back-to-top {
+
+		bottom: 10px;
+		right: 10px;
 	}
 }
 
@@ -51,7 +65,7 @@ Bootstrap 3 Media Queries
 
 	.navbar {
 
-		background: rgba(0,0,0, .7);
+		background: rgba(0,0,0, .8);
 		padding: 0;
 	}
 
@@ -111,7 +125,7 @@ Bootstrap 3 Media Queries
 
 	.navbar {
 
-		background: rgba(0,0,0, .7);
+		background: rgba(0,0,0, .8);
 		padding: 0;
 	}
 
