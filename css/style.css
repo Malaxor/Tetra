@@ -64,7 +64,12 @@ NAVIGATION
 .brand-name-white {
 
     color: #fff;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 0;
 }
+
 
 .navbar {
 
@@ -79,7 +84,7 @@ NAVIGATION
     padding: 7px 0;
 }
 
-.tetra-nav-wrapper {
+.vesco-nav-wrapper {
 
     padding: 0 85px;
 }
