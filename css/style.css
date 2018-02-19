@@ -80,11 +80,11 @@ NAVIGATION
 
 .custom-nav {
 
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0, 0.8);
     padding: 7px 0;
 }
 
-.vesco-nav-wrapper {
+.tetra-nav-wrapper {
 
     padding: 0 85px;
 }
