@@ -84,9 +84,9 @@ NAVIGATION
     padding: 7px 0;
 }
 
-.tetra-nav-wrapper {
+nav .container-fluid {
 
-    padding: 0 85px;
+    padding: 0 100px;
 }
 
 .navbar-nav {
@@ -569,7 +569,7 @@ form .form-control {
 }
 
 .form-control:focus {
-    
+
     border-color: #34c6d3;
 }
 
