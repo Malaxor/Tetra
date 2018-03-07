@@ -100,6 +100,10 @@ Bootstrap 3 Media Queries
 @media (max-width: 767px) {
 
 	/* mobile menu */
+	nav .container-fluid {
+		padding: 0 20px;
+	}
+
 
 	.navbar {
 
@@ -192,10 +196,19 @@ Bootstrap 3 Media Queries
 /* Extra-Small Devices (Smaller Devices) */
 @media (max-width: 480px) {
 
+	/* Nav */
+	nav .container-fluid {
+		padding: 0 20px;
+	}
 }
 
 /* Extra-Small Devices (Smaller Devices) */
-@media (max-width: 320px) {
+@media (max-width: 394px) {
+
+	/* Nav */
+	nav .container-fluid {
+		padding: 0 20px;
+	}
 
 	/* SERVICES SECTION */
 
